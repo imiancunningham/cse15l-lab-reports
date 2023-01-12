@@ -20,6 +20,6 @@
 
 ![image](https://user-images.githubusercontent.com/122496390/211970875-b9840a88-8d98-43c7-bafa-1ceee100d66e.png)
 * Open the terminal by clicking the terminal drop down in the menu
-* Type "ssh cs15lwi23zz@ieng6.ucsd.edu" following the dollar sign $.
+* Type "ssh cs15lwi23***@ieng6.ucsd.edu" following the dollar sign $.
 * When prompted, enter your new password.
 * Note: You will not be able to see what you are typing when entering password.
