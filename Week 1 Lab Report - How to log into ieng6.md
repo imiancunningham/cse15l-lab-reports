@@ -23,3 +23,4 @@
 * Type "ssh cs15lwi23***@ieng6.ucsd.edu" following the dollar sign $.
 * When prompted, enter your new password.
 * Note: You will not be able to see what you are typing when entering password.
+* Make very sure you enter the ieng6 email with your 3 letters. I previously was using the example email instead of my own, making me unable to login.
