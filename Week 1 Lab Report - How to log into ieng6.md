@@ -24,3 +24,10 @@
 * When prompted, enter your new password.
 * Note: You will not be able to see what you are typing when entering password.
 * Make *very* sure you enter the ieng6 email with your 3 letters. I previously was using the example email instead of my own, making me unable to login.
+
+**4. Entering Commands**
+
+![image](https://user-images.githubusercontent.com/122496390/211973733-5dba87f7-3c9f-4b4e-86a9-9b182b2e53e2.png)
+* Some commands to try: `ls` + the path tells you the directory a file or folder is located in.
+* `pwd` prints the working directory
+* `cd` + path makes the command line look for the path within the folder you are already in. (Note: this means that if you are in a folder of the same name, it will still renavigate to the subfolder.
