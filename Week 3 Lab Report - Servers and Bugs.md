@@ -1,7 +1,7 @@
 # Part 1: ADD FORMATIIING!!!
 
 # Part 2:
-For the reversed method, I made a list {1, 2, 3} that the method incorrectly reversed. 
+For the reversed method, I made a list that the method incorrectly reversed. 
 I created this junit test for {1, 2, 3}:
 ```
   @Test
