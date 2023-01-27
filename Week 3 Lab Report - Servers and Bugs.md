@@ -51,4 +51,4 @@ Here is the code after fixing the bug:
 
 # Part 3:
 I learned how to edit files from github and push the changes back to the repository. 
-I did not know I could access online code from a remote terminal until week 3's lab.
+I did not know I could access online code from a remote terminal until I attended week 3's lab.
