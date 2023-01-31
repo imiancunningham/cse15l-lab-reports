@@ -51,7 +51,7 @@ class StringServer {
 ```
 **Screenshot 1: using /add-message**
 
-![image]()
+![image](https://github.com/imiancunningham/cse15l-lab-reports/blob/main/Lab%203%20part%201%20string%20server%20part%201.png)
 **Screenshot 2: using /add-message**
 
 ![image]()
