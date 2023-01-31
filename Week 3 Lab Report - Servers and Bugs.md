@@ -1,4 +1,4 @@
-# Part 1: ADD FORMATIIING!!!
+# Part 1:
 **Here is the code for StringServer:**
 ```
 import java.io.IOException;
@@ -49,6 +49,12 @@ class StringServer {
     }
 }
 ```
+**Screenshot 1: using /add-message**
+
+![image]()
+**Screenshot 2: using /add-message**
+
+![image]()
 # Part 2:
 For the reversed method, I made a list that the method incorrectly reversed. 
 I created this junit test for {1, 2, 3}:
