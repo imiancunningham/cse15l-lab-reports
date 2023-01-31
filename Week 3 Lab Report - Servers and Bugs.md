@@ -51,10 +51,19 @@ class StringServer {
 ```
 **Screenshot 1: using /add-message**
 ![image](https://github.com/imiancunningham/cse15l-lab-reports/blob/main/Lab%203%20part%201%20string%20server%20part%201.png)
+* The methods called when running this code include: handleRequest(), handle(), and start().
+* The relevant arguments to handleRequest() is the url of type URI. Although it has no instance variables of its own, it manipulates the runningString and tempString variables to add new strings to a running list.
+* The relevant arguments to handle() include the exchage input of type HttpExchange, which is responsible for getting the response from the user. The instance variable response stores the user's input.
+* The relevant arguments to start() include the port of type integer and the handler of type URLHandler. The port tells the user what port to input in their URL. The URLHandler inputs into the serverHttpHandler method. Instance variables include the server of type HttpServer that hosts the server itself.
+* This specific request causes the URL input variable to change based on the user's input following the equals sign. runningMessage's contents are updated to include the old user input and the new user input. This is then printed to the screen.
 
 **Screenshot 2: using /add-message**
 ![image](https://github.com/imiancunningham/cse15l-lab-reports/blob/main/Lab%203%20part%201%20string%20server%20part%202.png)
-
+* The methods called when running this code include: handleRequest(), handle(), and start().
+* The relevant arguments to handleRequest() is the url of type URI. Although it has no instance variables of its own, it manipulates the runningString and tempString variables to add new strings to a running list.
+* The relevant arguments to handle() include the exchage input of type HttpExchange, which is responsible for getting the response from the user. The instance variable response stores the user's input.
+* The relevant arguments to start() include the port of type integer and the handler of type URLHandler. The port tells the user what port to input in their URL. The URLHandler inputs into the serverHttpHandler method. Instance variables include the server of type HttpServer that hosts the server itself.
+* This specific request causes the URL input variable to change based on the user's input following the equals sign. runningMessage's contents are updated to include the old user input and the new user input. This is then printed to the screen.
 # Part 2:
 For the reversed method, I made a list that the method incorrectly reversed. 
 I created this junit test for {1, 2, 3}:
