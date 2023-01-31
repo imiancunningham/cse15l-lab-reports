@@ -50,11 +50,11 @@ class StringServer {
 }
 ```
 **Screenshot 1: using /add-message**
-
 ![image](https://github.com/imiancunningham/cse15l-lab-reports/blob/main/Lab%203%20part%201%20string%20server%20part%201.png)
-**Screenshot 2: using /add-message**
 
-![image]()
+**Screenshot 2: using /add-message**
+![image](https://github.com/imiancunningham/cse15l-lab-reports/blob/main/Lab%203%20part%201%20string%20server%20part%202.png)
+
 # Part 2:
 For the reversed method, I made a list that the method incorrectly reversed. 
 I created this junit test for {1, 2, 3}:
