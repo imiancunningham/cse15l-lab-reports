@@ -25,7 +25,6 @@ This code worked for empty arrays:
 ```
 
 Here are the symptoms for the failed test alongside the working test:
-Use photo from Ubuntu files.
 ![image](https://github.com/imiancunningham/cse15l-lab-reports/blob/main/ArrayTests%20Symptoms%20Lab%203.png)
 
 Here is the original code before fixing the bug:
