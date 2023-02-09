@@ -15,17 +15,10 @@ class Handler implements URLHandler {
     public static String runningMessage="";
 
     public String handleRequest(URI url) {
-        if (url.getPath().equals("/")) {
-            return String.format("Ian's Number: %d", num);
-        } else if (url.getPath().equals("/increment")) {
-            num += 1;
-            return String.format("Number incremented!");
-        } else {
             System.out.println("Path: " + url.getPath());
             if (url.getPath().contains("/add-message")) {
                 String[] parameters = url.getQuery().split("=");
                 if (parameters[0].equals("s")) {
-//                    runningMessage.append += String.parse(parameters[1]);
                     tempMessage = parameters[1];
                     runningMessage = runningMessage + '\n' + tempMessage;
                     return String.format("%s\n", runningMessage);
@@ -51,22 +44,21 @@ class StringServer {
 ```
 **Screenshot 1: using /add-message**
 ![image](https://github.com/imiancunningham/cse15l-lab-reports/blob/main/Lab%203%20part%201%20string%20server%20part%201.png)
-* The methods called when running this code include: handleRequest(), handle(), and start().
-* The relevant arguments to handleRequest() is the url of type URI. Although it has no instance variables of its own, it manipulates the runningString and tempString variables to add new strings to a running list.
-* The relevant arguments to handle() include the exchage input of type HttpExchange, which is responsible for getting the response from the user. The instance variable response stores the user's input.
-* The relevant arguments to start() include the port of type integer and the handler of type URLHandler. The port tells the user what port to input in their URL. The URLHandler inputs into the serverHttpHandler method. Instance variables include the server of type HttpServer that hosts the server itself.
+* The methods called when running this code include: handleRequest() and start().
+* The relevant arguments to handleRequest() is the url of type URI. Although it has no instance variables of its own, it manipulates the runningString and tempString variables to add new strings to a running list. Before the /add-message, runningString and tempString contain "" and null respectively. After /add-message, tempMessage contains what the user just inputted into the system ("strings"), while runningString holds all the previous messages the user inputted.("string strings").
+* The relevant arguments to start() include the port of type integer and the handler of type URLHandler. The port tells the user what port to input in their URL. The port tells the server where to run itself. This port number differentiates it from other server ports. When adding the port to the URL, the URLHandler inputs into the serverHttpHandler method. Instance variables include the server of type HttpServer that hosts the server itself.
 * This specific request causes the URL input variable to change based on the user's input following the equals sign. runningMessage's contents are updated to include the old user input and the new user input. This is then printed to the screen.
 
 **Screenshot 2: using /add-message**
 ![image](https://github.com/imiancunningham/cse15l-lab-reports/blob/main/Lab%203%20part%201%20string%20server%20part%202.png)
 * The methods called when running this code include: handleRequest(), handle(), and start().
-* The relevant arguments to handleRequest() is the url of type URI. Although it has no instance variables of its own, it manipulates the runningString and tempString variables to add new strings to a running list.
+* The relevant arguments to handleRequest() is the url of type URI. Although it has no instance variables of its own, it manipulates the runningString and tempString variables to add new strings to a running list. Before the /add-message, runningString and tempString contain "" and null respectively. After /add-message, tempMessage contains what the user just inputted into the system ("more strings"), while runningString holds all the previous messages the user inputted.("string strings more strings").
 * The relevant arguments to handle() include the exchage input of type HttpExchange, which is responsible for getting the response from the user. The instance variable response stores the user's input.
-* The relevant arguments to start() include the port of type integer and the handler of type URLHandler. The port tells the user what port to input in their URL. The URLHandler inputs into the serverHttpHandler method. Instance variables include the server of type HttpServer that hosts the server itself.
+* The relevant arguments to start() include the port of type integer and the handler of type URLHandler. The port tells the user what port to input in their URL. The port tells the server where to run itself. This port number differentiates it from other server ports. When adding the port to the URL, the URLHandler inputs into the serverHttpHandler method. Instance variables include the server of type HttpServer that hosts the server itself.
 * This specific request causes the URL input variable to change based on the user's input following the equals sign. runningMessage's contents are updated to include the old user input and the new user input. This is then printed to the screen.
 # Part 2:
 For the reversed method, I made a list that the method incorrectly reversed. 
-I created this junit test for {1, 2, 3}:
+I created this junit test for {1, 2, 3}. The expected output is {3, 2, 1}.
 ```
   @Test
   public void testReversedMultiple() {
@@ -79,7 +71,7 @@ I created this junit test for {1, 2, 3}:
   }
 ```
   
-This code worked for empty arrays:
+This code worked for empty arrays. The expected output when flipping " " is " ".
 ```
   @Test
   public void testReversed() {
@@ -101,7 +93,7 @@ Here is the original code before fixing the bug:
     return arr;
   }
 ```
-Here is the code after fixing the bug:
+Here is the code after fixing the bug. The fix was to return the newArray instead of the original inputted array.
 ```
   static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
