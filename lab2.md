@@ -43,7 +43,7 @@ class StringServer {
 }
 ```
 **Screenshot 1: using /add-message**
-![image](/blob/main/Lab%203%20part%201%20string%20server%20part%201.png)
+![image]([/blob/main/Lab%203%20part%201%20string%20server%20part%201.png](https://github.com/imiancunningham/cse15l-lab-reports/blob/main/Lab%203%20part%201%20string%20server%20part%201.png)
 * The methods called when running this code include: handleRequest() and start().
 * The relevant arguments to handleRequest() is the url of type URI. Although it has no instance variables of its own, it manipulates the runningString and tempString variables to add new strings to a running list. Before the /add-message, runningString and tempString contain "" and null respectively. After /add-message, tempMessage contains what the user just inputted into the system ("strings"), while runningString holds all the previous messages the user inputted.("string strings").
 * The relevant arguments to start() include the port of type integer and the handler of type URLHandler. The port tells the user what port to input in their URL. The port tells the server where to run itself. This port number differentiates it from other server ports. When adding the port to the URL, the URLHandler inputs into the serverHttpHandler method. Instance variables include the server of type HttpServer that hosts the server itself.
