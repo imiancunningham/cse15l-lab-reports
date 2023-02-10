@@ -50,7 +50,7 @@ class StringServer {
 * This specific request causes the URL input variable to change based on the user's input following the equals sign. runningMessage's contents are updated to include the old user input and the new user input. This is then printed to the screen.
 
 **Screenshot 2: using /add-message**
-![image](https://github.com/imiancunningham/cse15l-lab-reports/blob/main/Lab%203%20part%201%20string%20server%20part%202.png)
+![image](cse15l-lab-reports/blob/main/Lab%203%20part%201%20string%20server%20part%202.png)
 * The methods called when running this code include: handleRequest(), handle(), and start().
 * The relevant arguments to handleRequest() is the url of type URI. Although it has no instance variables of its own, it manipulates the runningString and tempString variables to add new strings to a running list. Before the /add-message, runningString and tempString contain "" and null respectively. After /add-message, tempMessage contains what the user just inputted into the system ("more strings"), while runningString holds all the previous messages the user inputted.("string strings more strings").
 * The relevant arguments to handle() include the exchage input of type HttpExchange, which is responsible for getting the response from the user. The instance variable response stores the user's input.
@@ -81,7 +81,7 @@ This code worked for empty arrays. The expected output when flipping " " is " ".
 ```
 
 Here are the symptoms for the failed test alongside the working test:
-![image](https://github.com/imiancunningham/cse15l-lab-reports/blob/main/ArrayTests%20Symptoms%20Lab%203.png)
+![image](cse15l-lab-reports/blob/main/ArrayTests%20Symptoms%20Lab%203.png)
 
 Here is the original code before fixing the bug:
 ```
