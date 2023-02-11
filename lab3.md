@@ -34,6 +34,8 @@ The word "defined" is given to the grep -i command, appearing twice despite the 
 
 ![Lab report 3 grep -A example 1](https://user-images.githubusercontent.com/122496390/218268308-aad3d60b-18f7-4552-b211-9029bd4a5bf7.png)
 
-the grep -A command displays the line where a piece of text appears, along with a number of lines after it determined by the user. 
+The grep -A command displays the line where a piece of text appears, along with a number of lines after it determined by the user. In this example I chose two lines following the line that contains the given piece of text.
 
 ![Lab report 3 grep -A example 2](https://user-images.githubusercontent.com/122496390/218268311-acd54f6d-2f31-4ef8-b7bf-77fe154f6f83.png)
+
+Here I only asked the terminal to display one line following the line containing the set of characters. 
