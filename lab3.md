@@ -1,6 +1,6 @@
 # 4 uses of the grep command
 
-1) grep -l finds file names matching the given text.
+## 1) grep -l finds file names matching the given text.
    Source: [Link](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
 
 ![Lab report 3 grep -l example 1](https://user-images.githubusercontent.com/122496390/218268260-f3643999-5758-4d9b-857d-c811cff29578.png)
@@ -11,7 +11,7 @@ The `-l` command for `grep` allows you to search for a sequence of characters in
 
 In this second example of the `-l` command, `grep` searches for a set of characters shared by multiple files. By searching for "ch", all of the `chapter` text files appear.
 
-2) grep -n shows which lines the text appears on.
+## 2) grep -n shows which lines the text appears on.
    Source: [Link](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
 
 ![Lab report 3 grep -n example 1](https://user-images.githubusercontent.com/122496390/218268285-2744dfae-ff3d-4837-9072-6ab28a0f6e88.png)
@@ -22,7 +22,7 @@ The `-n` `grep` command allows you to search for a set of characters in a file, 
 
 For the second example, the `grep -n` command searches for "founders" and finds it on two separate lines, appearing twice in one of them. It will display the entirety of each of those lines along with red font for the specific set of characters searched.
 
-3) grep -i does a search ignoring the case of the text.
+## 3) grep -i does a search ignoring the case of the text.
    Source: [Link](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
 
 ![Lab report 3 grep -i example 1](https://user-images.githubusercontent.com/122496390/218268302-40bf899c-072b-4cb5-b30c-2e428f7bbf44.png)
@@ -33,7 +33,7 @@ The `grep -i` command performs a search looking for a set of characters while ig
 
 The word "defined" is given to the `grep -i` command, appearing twice despite the capitalization being completely different from how it appears in the document.
 
-4) `grep -A` displays N lines after the text it matches.
+## 4) `grep -A` displays N lines after the text it matches.
    Source: [Link](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
 
 ![Lab report 3 grep -A example 1](https://user-images.githubusercontent.com/122496390/218268308-aad3d60b-18f7-4552-b211-9029bd4a5bf7.png)
