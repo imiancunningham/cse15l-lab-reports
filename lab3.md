@@ -1,7 +1,6 @@
 grep
 
 1) grep -l finds file names matching the given text.
-2 examples
 ![Lab report 3 grep -l example 1](https://user-images.githubusercontent.com/122496390/218268260-f3643999-5758-4d9b-857d-c811cff29578.png)
 the -l command for grep allows you to search for a sequence of characters in a files name. Here we search for the prefix "non" and the terminal returns the non-fiction directory.
 ![Lab report 3 grep -l example 2](https://user-images.githubusercontent.com/122496390/218268276-a9434976-48f4-49d8-8286-c2226f6b55d6.png)
