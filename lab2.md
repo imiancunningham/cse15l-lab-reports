@@ -1,4 +1,4 @@
-**#Lab 2:**
+**Lab 2:**
 
 # Part 1:
 **Here is the code for StringServer:**
