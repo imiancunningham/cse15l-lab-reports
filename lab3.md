@@ -27,7 +27,7 @@ For the second example, the `grep -n` command searches for "founders" and finds 
 
 ![Lab report 3 grep -i example 1](https://user-images.githubusercontent.com/122496390/218268302-40bf899c-072b-4cb5-b30c-2e428f7bbf44.png)
 
-The `grep -i` command performs a search looking for a set of characters while ignoring whether they are upper or lower case. The word `suffering` is purposely capitalized incorrectly in order to show how the `grep -i` command does not care about the case of each character.
+The `grep -i` command performs a search looking for a set of characters while ignoring whether they are upper or lower case. This can be useful when looking for the appearance of a word in a research document regardless of whether it starts a sentence. The word `suffering` is purposely capitalized incorrectly in order to show how the `grep -i` command does not care about the case of each character.
 
 ![Lab report 3 grep -i example 2](https://user-images.githubusercontent.com/122496390/218268305-bd273d52-8442-467c-8611-a5770c365b88.png)
 
