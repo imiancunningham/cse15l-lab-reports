@@ -22,4 +22,4 @@ Here the code should have ran properly but still does not despite me verifying I
 
 9). ![Lab report 4 step 9 commit changes should work](https://user-images.githubusercontent.com/122496390/221759232-f910a9ab-6943-42ed-844b-5bd12535e5e2.png)
 
-I then entered `"git add ListExamples.java <enter> git commit -m "Should've fixed error" <enter>"` followed by `"git push git@github.com:imiancunningham/lab7.git"`
+I then entered `"git add ListExamples.java <enter> git commit -m "Should've fixed error" <enter>"` followed by `"git push git@github.com:imiancunningham/lab7.git"` This set of commands committed the change to the file and pushed it back to the repository so that the local and cloud versions of the code would match. This only worked when using the git link, not the HTTPS link.
