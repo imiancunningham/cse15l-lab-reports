@@ -12,7 +12,7 @@ The `-l` command for `grep` allows you to search for a sequence of characters in
 In this second example of the `-l` command, `grep` searches for a set of characters shared by multiple files. By searching for "ch", all of the `chapter` text files appear.
 
 ## 2) find -ls recursively looks for files within directories.
-   Source: [Link]([https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/](https://www.redhat.com/sysadmin/linux-find-command))
+   Source:[https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/](https://www.redhat.com/sysadmin/linux-find-command)
 
 ![Lab report 3 grep -n example 1](https://user-images.githubusercontent.com/122496390/218268285-2744dfae-ff3d-4837-9072-6ab28a0f6e88.png)
 
@@ -23,7 +23,7 @@ The `-n` `grep` command allows you to search for a set of characters in a file, 
 For the second example, the `grep -n` command searches for "founders" and finds it on two separate lines, appearing twice in one of them. It will display the entirety of each of those lines along with red font for the specific set of characters searched.
 
 ## 3) find -type for files of a specific type.
-   Source: [Link]([https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/](https://www.redhat.com/sysadmin/linux-find-command))
+   Source: [https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/](https://www.redhat.com/sysadmin/linux-find-command)
 
 ![Lab report 3 grep -i example 1](https://user-images.githubusercontent.com/122496390/218268302-40bf899c-072b-4cb5-b30c-2e428f7bbf44.png)
 
@@ -34,7 +34,7 @@ The `grep -i` command performs a search looking for a set of characters while ig
 The word "defined" is given to the `grep -i` command, appearing twice despite the capitalization being completely different from how it appears in the document. This can be useful when looking for a whenever a word is mentioned in a research paper.
 
 ## 4) find -type d looks for only directories.
-   Source: [Link]([https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/](https://www.redhat.com/sysadmin/linux-find-command))
+   Source:[https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/](https://www.redhat.com/sysadmin/linux-find-command)
 
 ![Lab report 3 grep -A example 1](https://user-images.githubusercontent.com/122496390/218268308-aad3d60b-18f7-4552-b211-9029bd4a5bf7.png)
 
